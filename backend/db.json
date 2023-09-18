@@ -1,0 +1,55 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Lazer"
+    },
+    {
+      "id": 2,
+      "titulo": "Jogos"
+    },
+    {
+      "id": 3,
+      "titulo": "Compra"
+    },
+    {
+      "id": 4,
+      "titulo": "Estudos"
+    }
+  ],
+  "notas": [
+    {
+      "titulo": "Compras no Mercado",
+      "conteudo": "Pão\nLeite",
+      "tema": "warning",
+      "categoriaId": "3",
+      "categoria": {
+        "id": 3,
+        "titulo": "Compra"
+      },
+      "id": 1
+    },
+    {
+      "titulo": "Jogo de Volei",
+      "conteudo": "Jogo de Volei com os colegas",
+      "tema": "dark",
+      "categoriaId": "1",
+      "categoria": {
+        "id": 1,
+        "titulo": "Lazer"
+      },
+      "id": 2
+    },
+    {
+      "titulo": "Estudar C#",
+      "conteudo": "Revisar conteúdo",
+      "tema": "danger",
+      "categoriaId": "4",
+      "categoria": {
+        "id": 4,
+        "titulo": "Estudos"
+      },
+      "id": 3
+    }
+  ]
+}
